@@ -8,8 +8,13 @@ repeated_colors = colors * 3
 middle_of_elements = art[2:4]
 print(middle_of_elements)
 
-verify="square" in art
-print(verify)
-print(art)
+if "square" == art:
+    print("yes")
+else:
+    print("no")
+# verify="square" in art
+# print(verify)
+# print(art)
+
 
 
