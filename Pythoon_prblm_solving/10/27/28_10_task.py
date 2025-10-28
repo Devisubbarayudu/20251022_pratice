@@ -29,7 +29,7 @@ for i in range(1, len(nums)-1):
 print(min_num)
 
 # # 4. There is an error while printing alternate elements from the list. Please identify and correct it.
-lst = [10, 20, 30, 40, 50]
+lst = [10, 20, 30, 40, 50, 60, 70]
 for i in range(0,len(lst)):
     if i % 2 == 0:
         print(lst[i])
